@@ -1,0 +1,194 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: 'Roboto', sans-serif;
+}
+
+main {
+  flex: 1;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+header {
+  padding: 1rem 10rem;
+}
+
+header, footer {
+  background: #1F2937;
+}
+
+header ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+nav ul {
+  display: flex;
+  gap: 24px;
+  list-style: none;
+}
+
+.logo, .header-hero__left {
+  color: #F9FAF8;
+}
+
+.logo {
+  font-size: 24px;
+}
+
+.header-hero__left h1, .sect-two h2 {
+  font-weight: 900;
+}
+
+.header-hero__left h1 {
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 1;
+}
+
+nav a, .header-hero__left p, footer {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.header-hero__left p, .header-hero__left .button {
+  margin-top: 1em;
+}
+
+.header-hero {
+  display: flex;
+  gap: 30px;
+  padding: 8em 0;
+}
+
+.header-hero__left {
+  margin-top: 2em;
+  max-width: 40%;
+}
+
+.header-hero__right {
+  margin-left: auto;
+}
+
+.header-hero__left .button {
+  display: inline-block;
+  background: #3882F6;
+  padding: .5rem 1.7rem;
+  border-radius: 8px;
+}
+
+.sect-two {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3em 0;
+  text-align: center;
+}
+
+.sect-two h2, .sect-three .text {
+  font-size: 36px;
+  color: #1F2937;
+}
+
+.sect-two .container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2em;
+  margin: 1em 1.5em;
+}
+
+.block {
+  flex: 0 1 80px;
+}
+
+.block__img {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  border: 2px solid #3882F6;
+  margin-bottom: .7em;
+}
+
+.block__txt {
+  text-align: center;
+}
+
+.sect-three {
+  display: flex;
+  align-items: center;
+  min-height: 500px;
+  background: #E5E7EB;
+}
+
+.sect-three__content {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 750px;
+}
+
+.sect-three__content .text {
+  font-style: italic;
+  margin: 0 auto;
+}
+
+.sect-three__content .signature {
+  font-size: 1.5rem;
+  font-weight: 900;
+  margin: 1em 0 0 auto
+}
+
+.sect-four {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sect-four-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  margin: 7em 10em;
+  padding: 2.5em 6em;
+  border-radius: 10px;
+  background: #3882F6;
+  color: #fff;
+  flex: 0 1 850px;
+}
+
+.sect-four__left .text {
+  font-weight: 900;
+}
+
+.sect-four__right .button {
+  display: block;
+  border-radius: 10px;
+  border: 1px solid #fff;
+  padding: .7em 0;
+  min-width: 7em;
+  text-align: center;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 2em 0;
+}
